@@ -3,6 +3,15 @@ revision = 2
 requires-python = ">=3.12"
 
 [[package]]
+name = "argparse"
+version = "1.4.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/18/dd/e617cfc3f6210ae183374cd9f6a26b20514bbb5a792af97949c5aacddf0f/argparse-1.4.0.tar.gz", hash = "sha256:62b089a55be1d8949cd2bc7e0df0bddb9e028faefc8c32038cc84862aefdd6e4", size = 70508, upload-time = "2015-09-12T20:22:16.217Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f2/94/3af39d34be01a24a6e65433d19e107099374224905f1e0cc6bbe1fd22a2f/argparse-1.4.0-py2.py3-none-any.whl", hash = "sha256:c31647edb69fd3d465a847ea3157d37bed1f95f19760b11a47aa91c04b666314", size = 23000, upload-time = "2015-09-14T16:03:16.137Z" },
+]
+
+[[package]]
 name = "contourpy"
 version = "1.3.2"
 source = { registry = "https://pypi.org/simple" }
@@ -50,6 +59,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/a9/95/a3dbbb5028f35eafb79008e7522a75244477d2838f38cbb722248dabc2a8/cycler-0.12.1.tar.gz", hash = "sha256:88bb128f02ba341da8ef447245a9e138fae777f6a23943da4540077d3601eb1c", size = 7615, upload-time = "2023-10-07T05:32:18.335Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl", hash = "sha256:85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30", size = 8321, upload-time = "2023-10-07T05:32:16.783Z" },
+]
+
+[[package]]
+name = "dahuffman"
+version = "0.4.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/8b/71/a0733bd3a40213f42005bdc60a4fe066bb790100b89c56f47aadf74dc88c/dahuffman-0.4.2.tar.gz", hash = "sha256:e260e5279e4e4989bab325cc073db1810e914453e61d9210906fee57373e0130", size = 17183, upload-time = "2024-09-09T07:52:42.868Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/76/e7/b0beac9a3655219574d2b59cf71346f44d2d5064d9a2ab228ecb256d3069/dahuffman-0.4.2-py3-none-any.whl", hash = "sha256:37968b2102402206367298f62f5b11aa588d3d827ccdf52f475bfccaea2a1732", size = 18184, upload-time = "2024-09-09T07:52:40.098Z" },
 ]
 
 [[package]]
@@ -163,6 +181,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/ba/c7/473bc559beec08ebee9f86ca77a844b65747e1a6c2691e8c92e40b9f42a8/matplotlib-3.10.3-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f6929fc618cb6db9cb75086f73b3219bbb25920cb24cee2ea7a12b04971a4158", size = 8618082, upload-time = "2025-05-08T19:10:39.892Z" },
     { url = "https://files.pythonhosted.org/packages/d8/e9/6ce8edd264c8819e37bbed8172e0ccdc7107fe86999b76ab5752276357a4/matplotlib-3.10.3-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:6c7818292a5cc372a2dc4c795e5c356942eb8350b98ef913f7fda51fe175ac5d", size = 9413699, upload-time = "2025-05-08T19:10:42.376Z" },
     { url = "https://files.pythonhosted.org/packages/1b/92/9a45c91089c3cf690b5badd4be81e392ff086ccca8a1d4e3a08463d8a966/matplotlib-3.10.3-cp313-cp313t-win_amd64.whl", hash = "sha256:4f23ffe95c5667ef8a2b56eea9b53db7f43910fa4a2d5472ae0f72b64deab4d5", size = 8139044, upload-time = "2025-05-08T19:10:44.551Z" },
+]
+
+[[package]]
+name = "natsort"
+version = "8.4.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e2/a9/a0c57aee75f77794adaf35322f8b6404cbd0f89ad45c87197a937764b7d0/natsort-8.4.0.tar.gz", hash = "sha256:45312c4a0e5507593da193dedd04abb1469253b601ecaf63445ad80f0a1ea581", size = 76575, upload-time = "2023-06-20T04:17:19.925Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl", hash = "sha256:4732914fb471f56b5cce04d7bae6f164a592c7712e1c85f9ef585e197299521c", size = 38268, upload-time = "2023-06-20T04:17:17.522Z" },
 ]
 
 [[package]]
@@ -325,6 +352,27 @@ wheels = [
 ]
 
 [[package]]
+name = "pyrle"
+version = "0.0.42"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "natsort" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "tabulate" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/45/5e/3dc853878cedb5fb844cef7f1a8c76479795e29087fb0919dbb0062f1087/pyrle-0.0.42.tar.gz", hash = "sha256:f0b1bb593947db965e229db6da3f2c29d0a52b535c2cca43f7cf6aed75f6f829", size = 460233, upload-time = "2025-03-18T15:52:12.093Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e5/dd/22a27c6c924bda50ddb60946346b5fbc21b72306fcf37b1a1940cbc5fd5b/pyrle-0.0.42-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:a69a135e6cca2433ebe5ff67cf29c938c21e4827d018327cefaa0bbe8d1ab4e2", size = 718311, upload-time = "2025-03-18T15:52:03.017Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/fb/9dfa5380e7f5add5c8054c0c6a94e5ec5356b042b798102611c05b571f47/pyrle-0.0.42-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0e14e81916c123088af6f8cc95d26430fa35fa5a3feacded4cff0cffc1d13086", size = 1944475, upload-time = "2025-03-18T15:52:04.679Z" },
+    { url = "https://files.pythonhosted.org/packages/45/7e/4ef4daafd66180ab44ae64bd8a6a05a1942f30f34295d6a2a9d3986eb929/pyrle-0.0.42-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:2643919557de08415c37d333d46c3883bfdf46cc5a569b93df693a013434ce16", size = 1882687, upload-time = "2025-03-18T15:52:05.81Z" },
+    { url = "https://files.pythonhosted.org/packages/5b/03/0f7bfcc267d4e77542cd3e5a592cf746fffda60d07c7cb20672ee0365814/pyrle-0.0.42-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:bf420af19529c5ceefeb48b075c4b9a83bb33f609cc7ad67ca54af2363bb2214", size = 2005456, upload-time = "2025-03-18T15:52:06.945Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/e4/f7320d98e8c5aeda0505821374b43be0a63fd2c2e8a614f6767f52e64e2d/pyrle-0.0.42-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:4f4d39c56cba5ce87354e772b355260305f518b8552289ebbe04c6e098a46b67", size = 2087394, upload-time = "2025-03-18T15:52:08.113Z" },
+    { url = "https://files.pythonhosted.org/packages/24/f4/d1584c5bc22fa0df517e0cd6e1e4a5f42f28d7fccebb33e7f15078f6b59c/pyrle-0.0.42-cp312-cp312-win32.whl", hash = "sha256:e4dd7e3adc4051c6b058f9b8596eaf9107fc01fb8d5e493b3edb39898ee6f02e", size = 670909, upload-time = "2025-03-18T15:52:09.201Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/db/8bee9b3ab3ef15179cb0dd45771ad4181af5e2d776d40f2c726d6118e677/pyrle-0.0.42-cp312-cp312-win_amd64.whl", hash = "sha256:d72f514ffe1f2549783ec246d867ac0fc68000e017c3c85bf679d90d6e12ccb7", size = 706904, upload-time = "2025-03-18T15:52:10.652Z" },
+]
+
+[[package]]
 name = "python-dateutil"
 version = "2.9.0.post0"
 source = { registry = "https://pypi.org/simple" }
@@ -355,20 +403,35 @@ wheels = [
 ]
 
 [[package]]
+name = "tabulate"
+version = "0.9.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ec/fe/802052aecb21e3797b8f7902564ab6ea0d60ff8ca23952079064155d1ae1/tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c", size = 81090, upload-time = "2022-10-06T17:21:48.54Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f", size = 35252, upload-time = "2022-10-06T17:21:44.262Z" },
+]
+
+[[package]]
 name = "text-compression"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "argparse" },
+    { name = "dahuffman" },
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pyrle" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "argparse", specifier = ">=1.4.0" },
+    { name = "dahuffman", specifier = ">=0.4.2" },
     { name = "matplotlib", specifier = ">=3.10.3" },
     { name = "numpy", specifier = ">=2.3.1" },
     { name = "pandas", specifier = ">=2.3.1" },
+    { name = "pyrle", specifier = ">=0.0.42" },
 ]
 
 [[package]]
