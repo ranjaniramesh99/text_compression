@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "constriction>=0.4.1",
+    "lz4>=4.4.4",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.1",
+    "pandas>=2.3.1",
+    "pyrlgr",
     "argparse>=1.4.0",
     "dahuffman>=0.4.2",
     "matplotlib>=3.10.3",
@@ -12,3 +18,6 @@ dependencies = [
     "pandas>=2.3.1",
     "pyrle>=0.0.42",
 ]
+
+[tool.uv.sources]
+pyrlgr = { git = "https://github.com/IENT/PyRLGR/" }
